@@ -1,0 +1,206 @@
+
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: #eee;
+
+    }
+}
+
+@media screen and (max-width: 777px) {
+    body {
+        background-color: #ddd;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #aaa;
+    }
+}
+
+header.notice{
+    margin-left: 15%;
+    color: #de2226;
+}
+
+#pw_spec_notice{
+    font-size: .8em;
+    margin-left: 15%;
+    display: block;
+    width: 73%;
+}
+
+div#heading_banner{
+    margin-top: -11px;
+    margin-left: -11px;
+    width: 100%;
+    border: solid 1px #eee;
+    background-color: white;
+    height: 77px;
+    position: fixed;
+}
+
+nav#page-nav{
+    width: 100%;
+    background-color: #de2226;
+}
+
+nav#page-nav ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav#page-nav ul li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    width: 12%;
+    width: calc(100% / 8);
+    box-sizing: border-box;
+}
+
+nav#page-nav ul li:first-child{
+    border-left: none;
+}
+
+nav#page-nav ul li a{
+   color: white;
+   display: block;
+   text-decoration: none;
+   padding: 10px 0;
+}
+nav#page-nav ul li a:hover{
+    color: #de2226;
+    background-color: white;
+}
+body{
+    font-family: comic sans ms, cursive, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 77px;
+}
+
+#header{
+    height: 77px;
+}
+
+
+div#formContainer{
+    margin-top: 100px;
+    margin-left: 7%;
+    width: 80%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+div#formContainer input{
+    margin: 5px;
+    margin-left: 10%;
+    border-radius: 5px;
+    width: 80%;
+    height: 35px;
+    font-family: comic sans ms, cursive, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+div#formContainer label{
+    margin-left: 7%;
+}
+
+div#account_heading{
+
+    right: 10px;
+    width: 147px;
+}
+
+div#account_heading img{
+    float: left;
+}
+
+#logo{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    top:10px;
+    left:10px;
+}
+
+#account_heading{
+    position: fixed;
+    right: -67px;
+    top:20px;
+    height: 77px;
+    width: 247px;
+   
+}
+
+#account_heading a{
+    text-decoration: none;
+    color: black;
+}
+
+#account_image{
+    width: 33px;
+    height: auto;
+   float: left;
+}
+
+.main_content{
+    margin-left: -5px;
+    border:#333 3px solid;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+}
+
+#hero{
+    border: 3px lightblue solid;
+    width: 120%;
+    height: auto;
+}
+
+.flex_nav_container {
+    display:flex;
+    height: 50px;
+    background-color: #de2226;
+    width: 100%;
+    margin-left: -10px;
+    font-size: 1em;
+  }
+
+.flex_nav_item a{
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.flex_nav_item a:hover{
+    color: red;
+}
+
+.flex_nav_item:hover{
+    background-color: white;
+    color: red;
+}
+
+#actionbtn{
+    width: auto;
+    height: auto;
+}
+
+
+footer{
+    position: static;
+}
+

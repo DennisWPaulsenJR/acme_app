@@ -1,0 +1,19 @@
+insert into  Clients (Client_first_name, Client_last_name, Client_email, Client_password, comments)
+values ('Tony', 'Stark', 'Tony@Starkent.com', 'Iam1ronM@n', 'I am the real iron Man');
+
+update Clients
+set Client_level = 3
+where Client_first_name = 'Tony' 
+and Client_last_name = 'Stark';
+
+update inventory
+set invName = 'Climbing Rope'
+where invName ='Nylon Rope';
+
+select invName, categoryName
+from inventory
+inner join categories 
+where categories.categoryId = 3;
+
+delete from inventory
+where invName = 'Koenigsegg CCX Car';
